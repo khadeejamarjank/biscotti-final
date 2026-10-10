@@ -1,0 +1,16 @@
+{
+  "name": "biscotti-backend",
+  "version": "1.0.0",
+  "description": "Backend API + static server for the Biscotti Cake Factory website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.34.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "multer": "^2.0.0",
+    "nodemailer": "^6.9.14"
+  }
+}

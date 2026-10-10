@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+npm-debug.log*
+backend/data/orders.json
+backend/data/menu.json
+backend/public/uploads/*
